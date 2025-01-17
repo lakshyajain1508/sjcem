@@ -1,4 +1,4 @@
-ublic class DataType {
+public class DataType {
 
 	public static void main(String[] args) {
 		
@@ -26,6 +26,10 @@ ublic class DataType {
 		System.out.println("Min value is "+ Float.MIN_VALUE);
 		System.out.println("Max value is "+ Float.MAX_VALUE);
 		
+		System.out.println("----------Double Data Type---------");
+		System.out.println("Double has "+ Double.BYTES+" Bytes size");
+		System.out.println("Min value is "+ Double.MIN_VALUE);
+		System.out.println("Max value is "+ Double.MAX_VALUE);
 		// As we do for all data types.
 		
 	}
