@@ -1,4 +1,4 @@
-package eu1242066;
+
 
 public class Demo2 {
 

@@ -1,4 +1,4 @@
-package EU1242066;
+
 import java.util.*;
 
 public class Userboolean{
