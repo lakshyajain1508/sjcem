@@ -1,4 +1,5 @@
-package EU1242066;
+
+
 
 public class PerfectSquare {
 
