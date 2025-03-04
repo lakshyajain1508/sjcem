@@ -1,4 +1,4 @@
-package eu1242066;
+
 
 abstract class Payment{
 	abstract void make_payment(double amount);
