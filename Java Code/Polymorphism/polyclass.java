@@ -1,5 +1,3 @@
-package eu1242066;
-
 
 class Animal{
 	
