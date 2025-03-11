@@ -1,5 +1,3 @@
-package eu1242066;
-
 class Person {
     private String name;
 
