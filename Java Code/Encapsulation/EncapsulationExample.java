@@ -1,12 +1,21 @@
+
+
 class Person {
     private String name;
+    private int age;
 
-    public void setName(String name) {
+    void setName(String name) {
         this.name = name;
     }
+    void setAge(int age) {
+        this.age = age;
+    }
 
-    public String getName() {
+    String getName() {
         return name;
+    }
+    int getAge() {
+    	return age;
     }
 }
 
@@ -15,7 +24,9 @@ public class EncapsulationExample {
 	public static void main(String[] args) {
         Person person = new Person();
         person.setName("Lakshya Jain");
-        System.out.println("Person's Name: " + person.getName());
+        person.setAge(19);
+        System.out.println("Name: " + person.getName());
+        System.out.println("Age: " + person.getAge());
     }
 	
 }
