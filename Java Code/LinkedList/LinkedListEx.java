@@ -1,4 +1,5 @@
 
+
 class Node { 
  	int data; 
  	Node next=null; 
@@ -28,9 +29,21 @@ public class LinkedListEx {
 		 temp.next = new_node; 
 	 } 
 		 public static void search_ele(Node head, int se) {
-			 System.out.println(se+ " is found at index pos 0"); 
-					System.out.println(se+ "is not found"); 
-		 }
+			 Node temp = head; 
+		        int index = 1; 
+
+		        while (temp != null) {
+		            if (temp.data == se) { 
+		                System.out.println(se + " is found at index pos " + index);
+		                return; 
+		            }
+		            temp = temp.next; 
+		            index++; 
+		        }
+		        
+		        System.out.println(se + " is not found");
+		    }
+		 
 	 	public static void main(String[] args) { 
 	 	Node n1=new Node(10); 
 	 	Node n2=new Node(20); 
@@ -49,7 +62,8 @@ public class LinkedListEx {
 	 	insert_after(head, 49, 20); 
 	 	System.out.println(); 
 	 	display_linked_list(head);
-	 	search_ele(head, 30); 
+	 	System.out.println();
+	 	search_ele(head, 60); 
 	 	System.out.println(); 
 	 	 
 	 	} 
