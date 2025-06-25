@@ -10,7 +10,6 @@ print(var[0:7]) # Output - Lakshya
 
 print(var[12]) # Output - IndexError: string index out of range
 
-# Pratical 1 - Basic Calculator
 
 '''
 1) int datatype represent the integer number without any decimal point or fraction part
