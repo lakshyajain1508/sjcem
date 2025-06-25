@@ -11,3 +11,14 @@ print(var[0:7]) # Output - Lakshya
 print(var[12]) # Output - IndexError: string index out of range
 
 # Pratical 1 - Basic Calculator
+
+'''
+1) int datatype represent the integer number without any decimal point or fraction part
+example - 200,-63,41
+In python, there is no limit for the size of int datatype
+    
+2) float - It represent floating point number, and it contain decimal point
+example - 50.34
+'''
+
+
