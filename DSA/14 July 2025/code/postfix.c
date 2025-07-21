@@ -7,7 +7,7 @@
 char stack[MAX];
 int top = -1;
 
-void puch(char op) {
+void push(char op) {
     stack[++top] = op;
     printf("Pushed: %c\n", op);
 }
@@ -21,7 +21,7 @@ char peek() {
 }
 
 int precedence(char op) {
-    if (top == '+' || op == '-') {
+    if (op == '+' || op == '-') {
         return 1;
     } else if (op == '*' || op == '/') {
         return 2;
@@ -29,8 +29,7 @@ int precedence(char op) {
         return 3;
     }
     else{
-        printf("Invalid operator: %c\n", op);
-        return -1;
+        return 0;
     }
 }
 
@@ -41,28 +40,36 @@ void convertPostfix(char *xyz, char *output) {
             strcat(output," ");
             strcat(output,token);
         }
-        else{
-            if (top == -1 || precedence(token[0]) > precedence(peek())) {
-                puch(token[0]);
-            } 
-            else {
-                while (top != -1 && precedence(token[0]) <= precedence(peek())) {
-                    char op_top[] = {pop(), '\0'};
-                    strcat(output, " ");
-                    strcat(output, op_top);
-                }
-                puch(token[0]);
+        else if (token[0] == '(') {
+            push(token[0]);
+        }
+        else if (token[0] == ')') {
+            while (top != -1 && peek() != '(') {
+                char op_top[] = {pop(), '\0'};
+                strcat(output, " ");
+                strcat(output, op_top);
+            }
+            if (top != -1 && peek() == '(') {
+                pop(); // Remove '(' from stack
             }
         }
-}
+        else {
+            while (top != -1 && precedence(token[0]) <= precedence(peek())) {
+                char op_top[] = {pop(), '\0'};
+                strcat(output, " ");
+                strcat(output, op_top);
+            }
+            push(token[0]);
+        }
+        token = strtok(NULL, " ");
+    }
 
-while (top != -1) {
+    while (top != -1) {
         char op_top[] = {pop(), '\0'};
         strcat(output, " ");
         strcat(output, op_top);
     }
 }
-
 void main() {
     char stmt [MAX], output[MAX];
     output[0] = '\0'; // Initialize output string
