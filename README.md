@@ -1,2 +1,2 @@
-## College Code / Practical
+## College Code / Practical Code
 
