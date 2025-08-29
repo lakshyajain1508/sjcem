@@ -60,3 +60,6 @@ int main() {
     printf("Postfix: %s\n", postfix);
     return 0;
 }
+
+// Trace of conversion step-by-step:
+// https://github.com/lakshyajain1508/sjcem/blob/main/DSA/Assignment%2001/Output/Output_05ex.png
