@@ -1,0 +1,66 @@
+Doubly Linked List Operations:
+1. Insert at beginning
+2. Insert at end
+3. Delete at position
+4. Display list
+5. Exit
+Enter your choice: 1
+Enter value to insert at beginning: 10
+Inserted 10 at the beginning.
+
+Doubly Linked List Operations:
+1. Insert at beginning
+2. Insert at end
+3. Delete at position
+4. Display list
+5. Exit
+Enter your choice: 1
+Enter value to insert at beginning: 20
+Inserted 20 at the beginning.
+
+Doubly Linked List Operations:
+1. Insert at beginning
+2. Insert at end
+3. Delete at position
+4. Display list
+5. Exit
+Enter your choice: 2
+Enter value to insert at end: 30
+Inserted 30 at the end.
+
+Doubly Linked List Operations:
+1. Insert at beginning
+2. Insert at end
+3. Delete at position
+4. Display list
+5. Exit
+Enter your choice: 4
+List: 20 10 30 
+
+Doubly Linked List Operations:
+1. Insert at beginning
+2. Insert at end
+3. Delete at position
+4. Display list
+5. Exit
+Enter your choice: 3
+Enter position to delete: 2
+Deleted element 10 at position 2.
+
+Doubly Linked List Operations:
+1. Insert at beginning
+2. Insert at end
+3. Delete at position
+4. Display list
+5. Exit
+Enter your choice: 4
+List: 20 30 
+
+Doubly Linked List Operations:
+1. Insert at beginning
+2. Insert at end
+3. Delete at position
+4. Display list
+5. Exit
+Enter your choice: 5
+Exiting program.
