@@ -1,0 +1,148 @@
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 1
+Enter value to push: 10
+Pushed 10 onto stack.
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 1
+Enter value to push: 20
+Pushed 20 onto stack.
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 1
+Enter value to push: 30
+Pushed 30 onto stack.
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 5
+Stack elements (top to bottom): 30 20 10 
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 2
+Popped 30 from stack.
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 5
+Stack elements (top to bottom): 20 10 
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 3
+Enter value to enqueue: 30
+Enqueued 30 into queue.
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 3
+Enter value to enqueue: 20
+Enqueued 20 into queue.
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 3
+Enter value to enqueue: 10
+Enqueued 10 into queue.
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 6
+Queue elements (front to rear): 30 20 10 
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 4
+Dequeued 30 from queue.
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 6
+Queue elements (front to rear): 20 10 
+
+Stack and Queue Operations:
+1. Push (Stack)
+2. Pop (Stack)
+3. Enqueue (Queue)
+4. Dequeue (Queue)
+5. Display Stack
+6. Display Queue
+7. Exit
+Enter your choice: 7
+Exiting program.
