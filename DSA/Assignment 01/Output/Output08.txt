@@ -1,0 +1,58 @@
+Circular Singly Linked List Operations:
+1. Insert
+2. Delete (from beginning)
+3. Traverse
+4. Exit
+Enter your choice: 1
+Enter value to insert: 10
+Inserted 10 into the list.
+
+Circular Singly Linked List Operations:
+1. Insert
+2. Delete (from beginning)
+3. Traverse
+4. Exit
+Enter your choice: 1
+Enter value to insert: 20
+Inserted 20 into the list.
+
+Circular Singly Linked List Operations:
+1. Insert
+2. Delete (from beginning)
+3. Traverse
+4. Exit
+Enter your choice: 1
+Enter value to insert: 30
+Inserted 30 into the list.
+
+Circular Singly Linked List Operations:
+1. Insert
+2. Delete (from beginning)
+3. Traverse
+4. Exit
+Enter your choice: 3
+List elements: 10 20 30 
+
+Circular Singly Linked List Operations:
+1. Insert
+2. Delete (from beginning)
+3. Traverse
+4. Exit
+Enter your choice: 2
+Deleted 10 from the list.
+
+Circular Singly Linked List Operations:
+1. Insert
+2. Delete (from beginning)
+3. Traverse
+4. Exit
+Enter your choice: 3
+List elements: 20 30 
+
+Circular Singly Linked List Operations:
+1. Insert
+2. Delete (from beginning)
+3. Traverse
+4. Exit
+Enter your choice: 4
+Exiting program.
