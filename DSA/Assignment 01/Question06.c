@@ -56,3 +56,6 @@ int main() {
     printf("Value: %d\n", pop());
     return 0;
 }
+
+// Excution Steps:
+// https://github.com/lakshyajain1508/sjcem/blob/main/DSA/Assignment%2001/Output/Output_06ex.png
