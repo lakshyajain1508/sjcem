@@ -33,11 +33,17 @@ void display() {
 }
 
 int main() {
+    printf("Inserting elements with priorities:\n");
+    printf("Value: 10, Priority: 2\n");
+    printf("Value: 20, Priority: 1\n");
+    printf("Value: 30, Priority: 3\n");
     insert(10, 2);
     insert(20, 1);
     insert(30, 3);
+    printf("Current Priority Queue: ");
     display();
     printf("Deleted: %d\n", delete());
+    printf("Current Priority Queue: ");
     display();
     return 0;
 }
