@@ -28,7 +28,8 @@ int delete() {
 }
 
 void display() {
-    for (int i = 0; i < n; i++) printf("(%d,%d) ", pq[i], priority[i]);
+    for (int i = 0; i < n; i++) 
+    printf("(%d,%d) ", pq[i], priority[i]);
     printf("\n");
 }
 
