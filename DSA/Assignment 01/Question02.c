@@ -60,4 +60,12 @@ int main() {
     return 0;
 }
 
-// Advantages of Circular Queue over Linear Queue:Advantages of circular queue over linear queue: Efficient use of space by reusing freed slots, no shifting of elements needed.
+/*
+Advantages of Circular Queue Over Linear Queue
+A circular queue has several advantages over a linear queue:
+
+1. It avoids wasted space by reusing the front area when the queue is full, unlike a linear queue that leaves gaps after dequeuing.
+2. It allows for continuous, cyclic processing of data without needing to reset or reorganize the queue.
+3. In a circular queue, both enqueue and dequeue operations can happen without leaving unused memory, unlike in a linear queue where memory may be wasted at the front.
+4. Both enqueue and dequeue operations are still O (1) but without the need to shift elements, as might happen in a linear queue.
+*/
