@@ -76,7 +76,6 @@ int main() {
                 printf("Enter value to insert: ");
                 if (scanf("%d", &val) != 1) {
                     printf("Invalid input.\n");
-                    while(getchar() != '\n'); // clear input buffer
                     break;
                 }
                 insert(val);
@@ -89,7 +88,7 @@ int main() {
                 break;
             case 4:
                 printf("Exiting program.\n");
-                exit(0);
+                return 0;
             default:
                 printf("Invalid choice. Please try again.\n");
         }
