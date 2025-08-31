@@ -97,4 +97,20 @@ int main() {
 }
 
 // Output:
-// https://github.com/lakshyajain1508/sjcem/blob/main/DSA/Assignment%2001/Output/Output08.txt
+//https://github.com/lakshyajain1508/sjcem/blob/main/DSA/Assignment%2001/Output/Output08.txt
+
+/*
+
+Advantages:
+
+1. No NULL end – Traversal is continuous as the last node links back to the first.
+
+
+2. Easy repeated access – After the last node, we directly reach the head again.
+
+
+3. Efficient insertion/deletion – Especially useful in queues and scheduling.
+
+
+4. Best for cyclic tasks – e.g., playlists, round robin CPU scheduling, traffic lights.
+*/
