@@ -150,6 +150,7 @@ COURSE
 - Decompose R into smaller relations to remove redundancy.
   
 `Answer:- `
+
 **Theory**
 
 * A **Functional Dependency (FD)** is a relation between attributes.
