@@ -125,7 +125,7 @@ The 8259 interfaces with the CPU (e.g., 8086) via three main channels:
 
 ***
 
-## 6. Explain Arhitechure of 80386 with neat diagaram explain each parts of section
+## 6. Explain Architecture of 80386 with neat diagaram explain each parts of section
 
 The **80386** was the first 32-bit microprocessor from Intel, introducing a fully pipelined architecture and **Protected Mode**.
 
