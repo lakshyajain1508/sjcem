@@ -1,8 +1,4 @@
-Since I cannot directly generate or upload image files like PNGs, I will provide the solutions to the assignment questions in detailed text and explain the construction steps where appropriate. I will use clear formatting to represent the tree structures and data steps.
-
-[cite_start]Here are the detailed answers for the questions from "Assignment No – 2"[cite: 1]:
-
-## Q1. [cite_start]Explain different types of binary trees with examples. [cite: 4]
+## Q1. Explain different types of binary trees with examples.
 
 A **binary tree** is a tree data structure where each node has at most two children, referred to as the left child and the right child.
 
@@ -42,7 +38,7 @@ A **binary tree** is a tree data structure where each node has at most two child
 
 ***
 
-## Q2. [cite_start]Binary Search Tree Height Calculation [cite: 5]
+## Q2. If we construct a binary search tree by inserting the following data sequentially, then what is the height of the tree formed: 71 32 12 82 45 91 38 70 40 61. If the binary search tree is constructed by inserting this data in sorted order, then what will be the height of that tree.
 
 The given sequential data for insertion is: **71, 32, 12, 82, 45, 91, 38, 70, 40, 61**.
 
@@ -100,7 +96,7 @@ The **height of that tree will be $10 - 1 = 9$**.
 
 ***
 
-## Q3. [cite_start]Binary Search Tree Traversals [cite: 6]
+## Q3. The preorder traversal of a binary search tree T is 23 12 11 9 6 45 32 67 56. What are the inorder and postorder traversals of the tree T?
 
 The **Preorder traversal** of a Binary Search Tree (BST) is: **23, 12, 11, 9, 6, 45, 32, 67, 56**.
 
@@ -157,11 +153,14 @@ The **Postorder traversal is: 6, 9, 11, 12, 32, 56, 67, 45, 23**.
 
 ***
 
-## Q4. [cite_start]Construct Binary Trees from Traversals [cite: 7]
+## Q4. Construct binary trees from the given traversals:
+### 1. Inorder: 35, 26, 93, 21, 68 ; Preorder: 68, 21, 93, 26, 35
+### 2. Inorder: 16, 22, 31, 15, 46, 77, 19 ; Preorder: 15, 22, 16, 31, 77, 46, 19
+### 3. Inorder: 4, 5, 6, 11, 19, 23, 43, 50, 54, 98 ; Postorder: 4, 6, 5, 19, 11, 50, 98, 54, 43, 23
 
 A unique binary tree can be constructed from its **Inorder traversal** and either its **Preorder** or **Postorder** traversal.
 
-### [cite_start]Part 1: Inorder & Preorder [cite: 8]
+### Part 1: Inorder & Preorder
 
 * **Inorder:** 35, 26, 93, **21**, 68
 * **Preorder:** **68**, 21, 93, 26, 35
