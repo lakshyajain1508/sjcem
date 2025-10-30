@@ -452,11 +452,6 @@
 10. **Diagram:** *5-Stage Pipeline Flow.*
 
 ---
-Perfect ✅
-Let’s continue with **Module 3 – 5 Marks Questions**, written in **10+ clear and simple points** with **diagram names** mentioned where applicable.
-All explanations are based on your uploaded notes (`allppt.pdf` + `MODULE-3 (1)_merged.pdf`).
-
----
 
 # **Module 3 – 5 Marks Questions**
 
