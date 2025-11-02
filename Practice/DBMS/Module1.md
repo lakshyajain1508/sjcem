@@ -17,6 +17,9 @@
 | *Scalability*              | Not suitable for large-scale applications          | Designed for large, complex databases                |
 | *Data Modification*        | Requires rewriting entire file                     | Easy with SQL commands (UPDATE, DELETE, etc.)        |
 | *Data Abstraction*         | No abstraction                                     | Multiple levels: physical, logical, view             |
+*Conclusion:*  
+A *DBMS* is more efficient, secure, and scalable than a traditional *file system*, especially for large and related datasets.
+
 ## Main types of DBMS (Database Management Systems):
 
 1. *Hierarchical DBMS*
