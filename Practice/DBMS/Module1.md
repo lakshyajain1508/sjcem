@@ -1,3 +1,21 @@
+## comparison between *File System* and *DBMS*:
+
+| *Feature*             | *File System*                          | *DBMS* (Database Management System)               |
+|-------------------------|------------------------------------------|-----------------------------------------------------|
+| *Data Storage*        | Stores data in files                     | Stores data in structured tables                    |
+| *Data Redundancy*     | High (same data repeated)                | Low (controlled via normalization)                 |
+| *Data Consistency*    | Hard to maintain                         | Ensured by constraints & transactions              |
+| *Security*            | Basic file-level protection              | Advanced user-based access control                 |
+| *Query Support*       | Manual (using code or file search)       | Uses powerful query languages like SQL             |
+| *Backup & Recovery*   | Manual                                   | Automated features available                       |
+| *Concurrency*         | Poor handling of multiple users          | Supports concurrent access with control            |
+| *Relationships*       | Not supported                            | Supports relationships using keys (PK, FK)         |
+| *Data Integrity*           | Hard to enforce (manual checks)                    | Enforced using constraints (like UNIQUE, NOT NULL)   |
+| *Data Access*              | Sequential or manual                               | Fast and optimized using indexes and queries         |
+| *Data Isolation*           | Difficult to isolate for multiple programs         | Well-managed using schemas and views                 |
+| *Scalability*              | Not suitable for large-scale applications          | Designed for large, complex databases                |
+| *Data Modification*        | Requires rewriting entire file                     | Easy with SQL commands (UPDATE, DELETE, etc.)        |
+| *Data Abstraction*         | No abstraction                                     | Multiple levels: physical, logical, view             |
 ## Main types of DBMS (Database Management Systems):
 
 1. *Hierarchical DBMS*
