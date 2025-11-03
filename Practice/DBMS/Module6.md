@@ -1,5 +1,51 @@
 # Module 6
+## Simple explanation of *Transaction States in DBMS*:  
 
+A *transaction* in a DBMS goes through several *states* during its life cycle. These states show the *progress and status* of the transaction.  
+
+*1. Active*
+- *Definition:* Transaction has started execution but *not yet completed*.  
+- *Operations:* Read/Write operations are being performed.  
+- *Example:* Deducting 100 from Alice’s account.  
+
+*2. Partially Committed*
+- *Definition:* Transaction has executed its *final operation* but *not yet committed* to the database.  
+- *Example:* Alice’s account is debited, but the amount is *not yet added* to Bob’s account.  
+
+*3. Committed*
+- *Definition:* Transaction *successfully completed* and all changes are *permanently saved* in the database.  
+- *Example:*100 successfully transferred from Alice to Bob.  
+
+
+*4. Failed*
+- *Definition:* Transaction *cannot proceed* due to some error (constraint violation, system crash, etc.).  
+- *Effect:* Database may need to *rollback* to previous consistent state.  
+- *Example:* Bob’s account number doesn’t exist.  
+
+*5. Aborted*
+- *Definition:* Transaction has *rolled back* after failure, *no changes* are reflected in the database.
+- *Example:* After failure, Alice’s $100 is *restored* to her account.  
+
+*6. Terminated*
+- *Definition:* Transaction is *either committed or aborted*, i.e., *completed*.  
+
+*Summary Table*
+
+| State               | Meaning |
+|--------------------|---------|
+| Active             | Transaction started |
+| Partially Committed| Final operation done, not yet permanent |
+| Committed          | Changes permanently saved |
+| Failed             | Transaction cannot continue |
+| Aborted            | Rolled back after failure |
+| Terminated         | Transaction completed (committed/aborted) |
+
+Diagram :
+
+<img alt="image" src="https://github.com/user-attachments/assets/def26341-4094-41cc-ba1e-766e3b67b26d" />
+
+
+---
 ## Simple explanation of transactions in DBMS with an example:  
 
 *What is a Transaction?*
