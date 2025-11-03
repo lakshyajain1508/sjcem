@@ -1,4 +1,76 @@
 # Module 6
+## Detailed explanation of Transaction Control with example .
+*What is Transaction Control in DBMS?*
+
+- *Transaction Control* refers to *commands and mechanisms* used to *manage transactions* in a database.  
+- It ensures that transactions are executed *safely*, maintaining *ACID properties*.  
+- These commands allow you to *commit, rollback, or save* your work in a controlled way.  
+
+*Transaction Control Commands (TCL)*
+
+In SQL/DBMS, the main *TCL commands* are:
+
+*1. COMMIT*
+
+- *Purpose:* Permanently saves all the changes made by the transaction into the database.  
+- *Effect:* Once committed, the changes *cannot be undone*.  
+- *Example:*  
+```sql
+UPDATE Account SET Balance = Balance - 100 WHERE Name = 'Alice';
+UPDATE Account SET Balance = Balance + 100 WHERE Name = 'Bob';
+COMMIT;
+```
+- Here, the transfer of $100 becomes *permanent* after COMMIT.  
+
+
+*2. ROLLBACK*
+
+- *Purpose:* Undo all changes made by the current transaction if something goes wrong.  
+- *Effect:* Database returns to the *previous consistent state*.  
+- *Example:*  
+```sql
+UPDATE Account SET Balance = Balance - 100 WHERE Name = 'Alice';
+-- Suppose system fails here
+ROLLBACK;
+```
+- Alice’s balance remains unchanged because the transaction was *rolled back*.  
+
+*3. SAVEPOINT*
+
+- *Purpose:* Creates a *checkpoint* within a transaction to which you can *rollback* later, instead of rolling back the whole transaction.  
+- *Effect:* Useful for *partial undo*.  
+- *Example:*  
+```sql
+SAVEPOINT sp1;
+UPDATE Account SET Balance = Balance - 50 WHERE Name = 'Alice';
+-- Something goes wrong
+ROLLBACK TO sp1;
+```
+- Only changes after `sp1` are undone; previous changes *remain intact*.  
+
+*4. SET TRANSACTION*
+
+- *Purpose:* Sets the properties for the transaction, such as *read-only* or *isolation level*.  
+- *Example:*  
+```sql
+SET TRANSACTION READ ONLY;
+```
+- Useful for controlling *concurrency* and *locking behavior*.
+
+*How Transaction Control Works*
+
+1. Transaction starts → Active state  
+2. Operations performed → Partial results  
+3. *COMMIT* → Changes saved permanently  
+4. *ROLLBACK* → Changes undone if error occurs  
+5. *SAVEPOINT* → Partial rollback to a checkpoint  
+
+*Key Points*
+
+- Transaction Control ensures *data integrity* and *ACID compliance*.  
+- COMMIT and ROLLBACK are the most frequently used commands.  
+- SAVEPOINT is optional but useful for *complex transactions*.  
+---
 ## Simple explanation of *Transaction States in DBMS*:  
 
 A *transaction* in a DBMS goes through several *states* during its life cycle. These states show the *progress and status* of the transaction.  
