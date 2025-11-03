@@ -1,4 +1,47 @@
 # Module 6
+
+## Simple explanation of *Deadlock Handling in DBMS*:  
+
+*What is Deadlock?*
+
+- A *deadlock* occurs in a database when *two or more transactions are waiting for each other to release resources*, and *none of them can proceed*.  
+- It’s like a *circular wait*, causing the system to *freeze those transactions*.
+
+*Example:*
+
+- Transaction T1 locks *Resource A* and wants *Resource B*.  
+- Transaction T2 locks *Resource B* and wants *Resource A*.  
+- Both wait for each other → *Deadlock occurs*.  
+
+
+*Deadlock Handling Methods*
+
+1. *Deadlock Prevention*
+   - Design the system so that deadlocks *cannot occur*.  
+   - Example: Impose a *lock ordering*; always acquire locks in a predefined order.  
+
+2. *Deadlock Avoidance*
+   - System *analyzes resource allocation* before granting a request.  
+   - Example: *Wait-Die* or *Wound-Wait* schemes in which older transactions are given priority.  
+
+3. *Deadlock Detection and Recovery*
+   - Allow deadlocks to happen, *detect them*, and then recover.  
+   - *Methods of Detection:*  
+     - Wait-for graph → detects cycles  
+   - *Recovery Options:*  
+     - *Abort* one or more transactions involved  
+     - *Rollback* to a safe state  
+
+4. *Timeout*
+- If a transaction waits for a resource too long, *it is aborted automatically*.  
+
+*Key Points*
+
+- Deadlocks *reduce system performance*.  
+- DBMS must have *mechanisms* to detect, prevent, or recover from deadlocks.  
+- Proper *locking protocols* and *transaction design* can minimize deadlocks.  
+
+---
 ## Detailed explanation of Transaction Control with example .
 *What is Transaction Control in DBMS?*
 
