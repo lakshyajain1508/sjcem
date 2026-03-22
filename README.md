@@ -34,12 +34,6 @@ This repository contains implementations and solutions for various computer scie
 | **OS** | Operating Systems course - includes algorithms like Banker's Algorithm |
 | **Practice** | General practice code and experimental implementations |
 
-### Configuration Folders
-
-| Folder | Description |
-|--------|-------------|
-| **.vscode** | Visual Studio Code configuration files for the workspace |
-
 ---
 
 ## 🏷️ Topics & Tags
