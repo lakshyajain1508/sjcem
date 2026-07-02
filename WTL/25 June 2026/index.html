@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Lakshya Jain | Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+      }
+
+      body {
+        background: linear-gradient(135deg, #ffffff, #f5f7ff, #dbeafe, #e9d5ff);
+        overflow-x: hidden;
+      }
+
+      section {
+        padding: 100px 0;
+      }
+
+      .navbar {
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(20px);
+      }
+
+      .hero {
+        height: 100vh;
+
+        display: flex;
+
+        align-items: center;
+
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 72px;
+
+        font-weight: 900;
+
+        background: linear-gradient(90deg, #2563eb, #9333ea);
+
+        -webkit-background-clip: text;
+
+        -webkit-text-fill-color: transparent;
+
+        animation: float 3s infinite;
+      }
+
+      @keyframes float {
+        50% {
+          transform: translateY(-8px);
+        }
+      }
+
+      .hero p {
+        font-size: 22px;
+
+        color: #475569;
+      }
+
+      .btn-main {
+        padding: 15px 40px;
+
+        border: none;
+
+        border-radius: 40px;
+
+        background: linear-gradient(90deg, #3b82f6, #9333ea);
+
+        color: white;
+
+        font-weight: bold;
+
+        transition: 0.4s;
+      }
+
+      .btn-main:hover {
+        transform: scale(1.08);
+      }
+
+      .box {
+        background: rgba(255, 255, 255, 0.75);
+
+        backdrop-filter: blur(15px);
+
+        border-radius: 30px;
+
+        padding: 40px;
+
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+
+        transition: 0.4s;
+      }
+
+      .box:hover {
+        transform: translateY(-8px);
+      }
+
+      .heading {
+        font-size: 42px;
+
+        font-weight: 800;
+
+        color: #2563eb;
+
+        margin-bottom: 30px;
+      }
+
+      .skill {
+        display: inline-block;
+
+        padding: 12px 24px;
+
+        margin: 10px;
+
+        background: linear-gradient(90deg, #60a5fa, #c084fc);
+
+        color: white;
+
+        border-radius: 30px;
+
+        font-weight: 700;
+      }
+
+      footer {
+        background: white;
+
+        padding: 30px;
+
+        text-align: center;
+
+        color: #64748b;
+
+        margin-top: 80px;
+      }
+
+      .card-cert {
+        padding: 30px;
+
+        border-radius: 25px;
+
+        background: white;
+
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold"> ✨ Lakshya Jain </a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Lakshya Jain</h1>
+
+        <h3 class="mt-3">Passionate Developer 🚀</h3>
+
+        <p class="mt-4">Creating modern ideas with code and creativity.</p>
+
+        <a href="#about">
+          <button class="btn-main mt-4">Explore</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="box">
+          <div class="heading">About Me</div>
+
+          <p>
+            Hello, I'm Lakshya Jain. A passionate developer who enjoys building
+            projects, learning technologies and creating beautiful digital
+            experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="box">
+          <div class="heading">Education</div>
+
+          <p>
+            Self-driven learning journey through projects, technology
+            exploration and practical development.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="heading">Skills</div>
+
+        <div class="box">
+          <span class="skill">HTML</span>
+
+          <span class="skill">CSS</span>
+
+          <span class="skill">Bootstrap</span>
+
+          <span class="skill">Python</span>
+
+          <span class="skill">MySQL</span>
+
+          <span class="skill">Problem Solving</span>
+
+          <span class="skill">AI Learning</span>
+
+          <span class="skill">Creative Thinking</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="heading">Certificates</div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card-cert">🏆 Web Development</div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-cert">🏆 Programming</div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-cert">🏆 AI Learning</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="box">
+          <div class="heading">Contact</div>
+
+          <p>📩 Available for opportunities</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 Lakshya Jain • All Rights Reserved</footer>
+  </body>
+</html>
