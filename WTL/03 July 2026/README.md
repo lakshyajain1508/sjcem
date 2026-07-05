@@ -70,17 +70,6 @@ The interface contains:
 
 ---
 
-## 📂 Project Structure
-
-```text
-Apple_Modern_Todo_List/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
 ---
 
 ## 📄 File Description
