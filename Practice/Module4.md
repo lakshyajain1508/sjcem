@@ -1,4 +1,4 @@
-Module 4 — Evolutionary Algorithm / Genetic Algorithm
+# Module 4 — Evolutionary Algorithm / Genetic Algorithm
 
 1. First understand the BIG IDEA
 
