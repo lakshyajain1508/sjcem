@@ -1,4 +1,72 @@
 # Module 4 — Evolutionary Algorithm / Genetic Algorithm
+## Exam-Ready Notes + Simple Definitions
+
+> Learn the simple explanation first, then memorize the **Exam Definition**. The definitions are short and suitable for writing in an exam.
+
+---
+
+# 0. Exam-Ready Definitions
+
+### Genetic Algorithm (GA)
+**Exam Definition:** A Genetic Algorithm is a heuristic search and optimization technique inspired by natural selection and evolution. It improves a population of candidate solutions using selection, crossover, and mutation.
+
+**Easy meaning:** Try many solutions, keep improving the better ones.
+
+### Evolutionary Algorithm
+**Exam Definition:** An Evolutionary Algorithm is an optimization technique inspired by natural evolution in which a population of solutions is improved over generations.
+
+### Gene
+**Exam Definition:** A gene is a single element or parameter of a chromosome that represents one part of a solution.
+
+### Chromosome
+**Exam Definition:** A chromosome is a complete representation of one candidate solution made up of one or more genes.
+
+### Population
+**Exam Definition:** A population is a collection of chromosomes or candidate solutions in a Genetic Algorithm.
+
+### Individual
+**Exam Definition:** An individual is one candidate solution in the population.
+
+### Fitness Function
+**Exam Definition:** A fitness function measures how good or suitable a candidate solution is for the problem and gives it a fitness value.
+
+### Parent
+**Exam Definition:** A parent is a selected chromosome used to produce new offspring.
+
+### Offspring
+**Exam Definition:** An offspring is a new candidate solution produced from one or more parent chromosomes.
+
+### Generation
+**Exam Definition:** A generation is one cycle or iteration of the Genetic Algorithm.
+
+### Selection
+**Exam Definition:** Selection is the process of choosing chromosomes from the current population as parents for producing the next generation.
+
+**Easy meaning:** Selection decides **who becomes the parent**.
+
+### Crossover
+**Exam Definition:** Crossover is a reproduction operator that combines genetic information from parent chromosomes to produce new offspring.
+
+**Easy meaning:** Crossover **combines parents**.
+
+### Mutation
+**Exam Definition:** Mutation is a low-probability random change in one or more genes of a chromosome to introduce variation.
+
+**Easy meaning:** Mutation **changes a small part of a solution**.
+
+### Encoding
+**Exam Definition:** Encoding is the process of representing a candidate solution in a suitable chromosome form for a Genetic Algorithm.
+
+### Termination
+**Exam Definition:** Termination is the condition used to stop the Genetic Algorithm when the specified stopping criterion is satisfied.
+
+### Convergence
+**Exam Definition:** Convergence occurs when the population becomes stable and new solutions are no longer significantly different from previous generations.
+
+### Heuristic
+**Exam Definition:** A heuristic is a problem-solving approach that searches for a good solution efficiently without necessarily checking every possible solution.
+
+---
 
 1. First understand the BIG IDEA
 
@@ -2878,5 +2946,3 @@ Tree → tree
 And the golden sentence:
 
 > Selection chooses the parents, crossover combines their information, mutation introduces variation, and fitness tells us how good the solutions are.
-
-
