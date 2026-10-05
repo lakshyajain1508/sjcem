@@ -1,18 +1,3 @@
-Laksh, **don't panic.** I went through the faculty-provided modules you
-uploaded and the 24 questions. I'll keep the answers in **simple
-English**, with **real-life examples**, and in a format you can directly
-reproduce for a **5-mark answer / about 1--1½ handwritten pages**.
-
-**Exam writing trick:** For every 5-mark answer, use: **Definition →
-Explanation → Points/Steps → Example → Advantages/Conclusion.**\
-For process questions, draw a **small flow diagram**. That makes the
-answer look complete.
-
-The answers below are based primarily on your faculty notes, including
-the Jewellery, Medical, Aerospace, Rapid Tooling and DfAM modules.
-fileciteturn0file5L10-L21 fileciteturn0file4L2-L7
-
-------------------------------------------------------------------------
 
 # 🚀 ADDITIVE MANUFACTURING --- 24 QUESTIONS EXAM CRASH COURSE
 
